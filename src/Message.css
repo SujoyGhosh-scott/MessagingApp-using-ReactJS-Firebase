@@ -1,0 +1,33 @@
+.message {
+  margin-right: 15px;
+  margin-left: 15px;
+  width: fit-content;
+}
+
+.nametags {
+  font-size: small;
+  text-align: left;
+}
+
+.message-user {
+  margin-left: auto;
+  color: white;
+  text-align: left !important;
+}
+
+.message-userCard {
+  color: #fff;
+  background-color: rgb(27, 233, 199);
+  border-radius: 4px;
+}
+
+.message-guestCard {
+  color: #fff;
+  background-color: rgb(171, 182, 185);
+  border-radius: 4px;
+}
+
+.message-userCard > h3,
+.message-guestCard > h3 {
+  padding: 10px;
+}
